@@ -1,0 +1,257 @@
+{
+  "DOI": {
+    "DOI": "10.5067/ECG5M-HEA44"
+  },
+  "ShortName": "ECCO_L4_HEAT_FLUX_05DEG_MONTHLY_V4R4",
+  "EntryTitle": "ECCO Ocean and Sea-Ice Surface Heat Fluxes - Monthly Mean 0.5 Degree (Version 4 release 4)",
+  "AdditionalAttributes": [
+    {
+      "Value": "ECCO Ocean and Sea-Ice Surface Heat Fluxes - Monthly Mean 0.5 Degree (Version 4 release 4)",
+      "Name": "Series Name",
+      "Description": "Dataset citation series name",
+      "DataType": "STRING"
+    }
+  ],
+  "ProcessingLevel": {
+    "Id": "4",
+    "ProcessingLevelDescription": "Data Assimilation"
+  },
+  "Abstract": "This dataset provides monthly average surface heat fluxes interpolated to a regular 0.5-degree grid as one component of a suite of ocean state estimates computed in ECCO Version 4 revision 4. \"Estimating the Circulation and Climate of the Ocean\" (ECCO) is a data assimilating model that produces optimized estimates of ocean state and flux. ECCO Version 4 release 4 (V4r4) constrains a global circulation model (MITgcm^) with diverse datasets that include satellite altimetry products like sea surface height (SSH); data derived from observations of earth\u2019s gravity field like ocean bottom pressure (OBP); observations from diverse in situ sources like Argo, CTD, XBT, ITP, APB, Glider, and TAO mooring temperature and salinity; and numerous other datasets. ECCO V4r4 is the first of the model\u2019s multi-decadal ocean state estimates to cover the Arctic Ocean and provide truly global coverage. It\u2019s also the first to assimilate observations from GRACE (ocean bottom pressure) and Aquarius (sea surface salinity), and the first covering 2016 and 2017. This release represents the 25 year period from 1992 to 2017.",
+  "Projects": [
+    {
+      "ShortName": "ECCO"
+    }
+  ],
+  "CollectionDataType": "SCIENCE_QUALITY",
+  "CollectionProgress": "PLANNED",
+  "CollectionCitations": [
+    {
+      "OtherCitationDetails": "ECCO, Ian Fenty, 2020, ECCO Ocean and Sea-Ice Surface Heat Fluxes - Monthly Mean 0.5 Degree (Version 4 release 4), 10.5067/ECG5M-HEA44, https://podaac.jpl.nasa.gov/ECCO"
+    }
+  ],
+  "ScienceKeywords": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN HEAT BUDGET",
+      "VariableLevel1": "HEAT FLUX"
+    }
+  ],
+  "LocationKeywords": [
+    {
+      "Category": "GEOGRAPHIC REGION",
+      "Type": "GLOBAL OCEAN"
+    }
+  ],
+  "SpatialExtent": {
+    "SpatialCoverageType": "HORIZONTAL",
+    "HorizontalSpatialDomain": {
+      "Geometry": {
+        "CoordinateSystem": "CARTESIAN",
+        "BoundingRectangles": [
+          {
+            "NorthBoundingCoordinate": 90.0,
+            "WestBoundingCoordinate": -180.0,
+            "EastBoundingCoordinate": 180.0,
+            "SouthBoundingCoordinate": -90.0
+          }
+        ]
+      }
+    },
+    "GranuleSpatialRepresentation": "CARTESIAN"
+  },
+  "TemporalExtents": [
+    {
+      "EndsAtPresentFlag": false,
+      "RangeDateTimes": [
+        {
+          "BeginningDateTime": "1992-01-01T00:00:00.000Z",
+          "EndingDateTime": "2017-12-31T00:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "TemporalKeywords": [
+    "Monthly - < Annual"
+  ],
+  "Platforms": [
+    {
+      "Type": "In Situ Ocean-based Platforms",
+      "ShortName": "MOORINGS",
+      "Instruments": [
+        {
+          "ShortName": "CTD",
+          "LongName": "Conductivity, Temperature, Depth"
+        }
+      ]
+    },
+    {
+      "Type": "In Situ Ocean-based Platforms",
+      "ShortName": "BUOYS",
+      "Instruments": [
+        {
+          "ShortName": "CTD",
+          "LongName": "Conductivity, Temperature, Depth"
+        }
+      ]
+    },
+    {
+      "Type": "In Situ Ocean-based Platforms",
+      "ShortName": "SEAGLIDER",
+      "Instruments": [
+        {
+          "ShortName": "CTD",
+          "LongName": "Conductivity, Temperature, Depth"
+        }
+      ]
+    },
+    {
+      "Type": "Models/Analyses",
+      "ShortName": "MODELS"
+    }
+  ],
+  "Version": "V4r4",
+  "RelatedUrls": [
+    {
+      "Description": "The HTTP location for the collection.",
+      "URLContentType": "DistributionURL",
+      "Type": "GET DATA",
+      "URL": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/ecco/L4/V4/R4/half_deg_grid_lat_lon/ocean_sea_ice_heat_flux/monthly"
+    },
+    {
+      "Description": "The OPeNDAP base directory location for the collection.",
+      "URLContentType": "PublicationURL",
+      "Type": "VIEW RELATED INFORMATION",
+      "Subtype": "GENERAL DOCUMENTATION",
+      "URL": "https://podaac-opendap.jpl.nasa.gov/opendap/allData/ecco/L4/V4/R4/half_deg_grid_lat_lon/ocean_sea_ice_heat_flux/monthly"
+    },
+    {
+      "Description": "Access the data set landing page for the collection.",
+      "URLContentType": "CollectionURL",
+      "Type": "DATA SET LANDING PAGE",
+      "URL": "https://doi.org/10.5067/ECG5M-HEA44"
+    },
+    {
+      "Description": "Mission and Instrument Overview",
+      "URLContentType": "CollectionURL",
+      "Type": "PROJECT HOME PAGE",
+      "URL": "http://podaac.jpl.nasa.gov/ecco"
+    },
+    {
+      "Description": "Thumbnail image for Website",
+      "URLContentType": "VisualizationURL",
+      "Type": "GET RELATED VISUALIZATION",
+      "URL": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/ECCO_L4_HEAT_FLUX_05DEG_MONTHLY_V4R4.jpg"
+    },
+    {
+      "Description": "The project website for the ECCO Consortium.",
+      "URLContentType": "CollectionURL",
+      "Type": "PROJECT HOME PAGE",
+      "URL": "https://www.ecco-group.org"
+    },
+    {
+      "Description": "Software maintained by ECCO Consortium on GitHub.",
+      "URLContentType": "PublicationURL",
+      "Type": "VIEW RELATED INFORMATION",
+      "URL": "https://github.com/ECCO-GROUP/"
+    },
+    {
+      "Description": "Version 4 release 4 software maintained by ECCO Consortium on GitHub.",
+      "URLContentType": "PublicationURL",
+      "Type": "VIEW RELATED INFORMATION",
+      "URL": "https://github.com/ECCO-GROUP/ECCO-v4-Configurations/tree/master/ECCOv4%20Release%204"
+    },
+    {
+      "Description": "This note provides a brief synopsis of ECCO Version 4 Release 3, an updated edition to the global ocean state estimate described by Forget et al. (2015b, 2016), covering the period 1992-2015.",
+      "URLContentType": "PublicationURL",
+      "Type": "VIEW RELATED INFORMATION",
+      "Subtype": "SCIENCE DATA PRODUCT SOFTWARE DOCUMENTATION",
+      "URL": "https://dspace.mit.edu/handle/1721.1/110380"
+    },
+    {
+      "Description": "Synopsis of the ECCO Central Production Global Ocean and Sea-Ice State Estimate",
+      "URLContentType": "PublicationURL",
+      "Type": "VIEW RELATED INFORMATION",
+      "Subtype": "SCIENCE DATA PRODUCT SOFTWARE DOCUMENTATION",
+      "URL": "https://zenodo.org/record/3765929"
+    }
+  ],
+  "PublicationReferences": [
+    {
+      "Title": "ECCO Version 4 Release 3 https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf",
+      "Publisher": "ECCO/JPL",
+      "DOI": {
+        "DOI": "1721.1/110380",
+        "Authority": "http://hdl.handle.net/"
+      },
+      "Author": "Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte",
+      "PublicationDate": "2017-06-29T00:00:00.000Z",
+      "PublicationPlace": "mit.edu"
+    },
+    {
+      "Title": "ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation",
+      "Publisher": "Geosci. Model Dev.",
+      "DOI": {
+        "DOI": "https://doi.org/10.5194/gmd-8-3071-2015",
+        "Authority": "https://doi.org/"
+      },
+      "Author": "Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch",
+      "PublicationDate": "2015-10-06T00:00:00.000Z",
+      "Volume": "8",
+      "Issue": "10",
+      "PublicationPlace": "copernicus.org",
+      "Pages": "3071\u20133104"
+    }
+  ],
+  "DataDates": [
+    {
+      "Date": "2020-08-06T03:57:56Z",
+      "Type": "CREATE"
+    }
+  ],
+  "DataLanguage": "eng",
+  "DataCenters": [
+    {
+      "Roles": [
+        "PROCESSOR"
+      ],
+      "ShortName": "ECCO Project NASA, JPL"
+    },
+    {
+      "Roles": [
+        "ARCHIVER"
+      ],
+      "ShortName": "NASA/JPL/PODAAC"
+    },
+    {
+      "Roles": [
+        "ARCHIVER"
+      ],
+      "ShortName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, N",
+      "LongName": "Physical Oceanography Distributed Active Archive Center, Jet Propulsion Laboratory, NASA",
+      "ContactPersons": [
+        {
+          "Roles": [
+            "Technical Contact"
+          ],
+          "FirstName": "Jack",
+          "MiddleName": "none",
+          "LastName": "McNelis"
+        }
+      ],
+      "ContactInformation": {
+        "ContactMechanisms": [
+          {
+            "Type": "Primary",
+            "Value": "818-354-4588"
+          },
+          {
+            "Type": "Email",
+            "Value": "Jack.McNelis@jpl.nasa.gov"
+          }
+        ]
+      }
+    }
+  ],
+  "MetadataLanguage": "eng"
+}

@@ -1,0 +1,1000 @@
+[
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"ERS-1",
+        "LongName":"European Remote Sensing Satellite-1",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"100.3",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.5",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"RADAR ALTIMETERS"
+            },
+            {
+                "ShortName":"ERS-1 ALTIMETER",
+                "LongName":"European Remote Sensing 1 altimeter",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"143.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            },
+            {
+                "ShortName":"AMI",
+                "LongName":"Active Microwave Instrument"
+            },
+            {
+                "ShortName":"ATSR",
+                "LongName":"Along Track Scanning Radiometer and Microwave Sounder"
+            },
+            {
+                "ShortName":"PRARE",
+                "LongName":"Precise Range and Range-Rate Equipment"
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"ERS-2",
+        "LongName":"European Remote Sensing Satellite-2",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"100.3",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.5",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"RADAR ALTIMETERS"
+            },
+            {
+                "ShortName":"ERS-2 Altimeter",
+                "LongName":"European Remote Sensing 2 altimeter"
+            },
+            {
+                "ShortName":"ATSR-2",
+                "LongName":"Along-Track Scanning Radiometer 2"
+            },
+            {
+                "ShortName":"SAR",
+                "LongName":"Synthetic Aperture Radar"
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"TOPEX/POSEIDON",
+        "LongName":"Topography Experiment/Poseidon",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"112.43",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"66.04",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"ALT (TOPEX)",
+                "LongName":"TOPEX ALTIMETER",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"5.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            },
+            {
+                "ShortName":"TMR",
+                "LongName":"TOPEX MICROWAVE RADIOMETER",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"5.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            },
+            {
+                "ShortName":"SSALT",
+                "LongName":"POSEIDON Solid State Radar Altimeter",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"5.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"JASON-1",
+        "LongName":"JASON-1",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"112.43",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"66.04",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"JASON-1 Microwave Radiometer",
+                "LongName":"JASON-1 MICROWAVE RADIOMETER",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"22.9",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            },
+            {
+                "ShortName":"POSEIDON-2",
+                "LongName":"JASON-1 RADAR ALTIMETER"
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"OSTM/JASON-2",
+        "LongName":"Ocean Surface Topography Mission/Jason-2",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"112.43",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"66.04",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"POSEIDON-3",
+                "LongName":"OSTM/Jason-2 RADAR alitmieter",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"5.1",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"JASON-3",
+        "LongName":"Jason-3",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"112.0",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"66.05",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"POSEIDON-3B",
+                "LongName":"POSEIDON-3B",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"5.1",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"CRYOSAT-2",
+        "Instruments":[
+            {
+                "ShortName":"SIRAL",
+                "LongName":"Synthetic Aperture Interferometric Radar Altimeter",
+                "Technique":"instrument",
+                "NumberOfInstruments":1,
+                "ComposedOf":[
+                    {
+                        "ShortName":"SIRAL",
+                        "LongName":"Synthetic Aperture Interferometric Radar Altimeter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"SARAL",
+        "LongName":"Satellite with Argos and AltiKa",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"100.59",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.55",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"ALTIKA Altimeter",
+                "LongName":"AltiKa",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"11.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"ENVISAT",
+        "LongName":"Environmental Satellite",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"100.59",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.55",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"MWR",
+                "LongName":"ENVISAT MICROWAVE RADIOMETER",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"20.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            },
+            {
+                "ShortName":"RA-2",
+                "LongName":"Radar Altimeter 2",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"5.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"GRACE",
+        "LongName":"Gravity Recovery and Climate Experiment",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"-1",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"89.0",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"GRACE ACC",
+                "LongName":"GRACE SuperSTAR Accelerometer"
+            },
+            {
+                "ShortName":"GRACE SCA",
+                "LongName":"Star Camera Assembly"
+            },
+            {
+                "ShortName":"KBR",
+                "LongName":"K-Band Ranging system"
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"GRACE-FO",
+        "LongName":"Gravity Recovery and Climate Experiment Follow-On",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"-1",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"89.0",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"GRACE-FO ACC",
+                "LongName":"GRACE-FO SuperSTAR Accelerometer"
+            },
+            {
+                "ShortName":"GRACE-FO SCA",
+                "LongName":"GRACE-FO Star Camera Assembly"
+            },
+            {
+                "ShortName":"KBR",
+                "LongName":"K-Band Ranging system"
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"Aquarius_SAC-D",
+        "LongName":"Aquarius SAC-D",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"98.0",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.0",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"AQUARIUS_RADIOMETER",
+                "LongName":"Aquarius Radiometer",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"390.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            },
+            {
+                "ShortName":"AQUARIUS_SCATTEROMETER",
+                "LongName":"Aquarius Scatterometer",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"390.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"METOP-A",
+        "LongName":"Meteorological Operational Satellite - A",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.3",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.7",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"AVHRR",
+                "LongName":"Advanced Very High Resolution Radiometer",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"2400.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"METOP-B",
+        "LongName":"Meteorological Operational Satellite - B",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.3",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.7",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"AVHRR",
+                "LongName":"Advanced Very High Resolution Radiometer",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"2400.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"NOAA-19",
+        "LongName":"National Oceanic & Atmospheric Administration-19",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"102.12",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.74",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"AVHRR",
+                "LongName":"Advanced Very High Resolution Radiometer",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"2400.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"NOAA-20",
+        "LongName":"National Oceanic & Atmospheric Administration-20",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"102.0",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"99.0",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"AVHRR",
+                "LongName":"Advanced Very High Resolution Radiometer",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"2400.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"NOAA POES",
+        "LongName":"NOAA Polar Orbiting Environmental Satellites",
+        "Instruments":[
+            {
+                "ShortName":"AVHRR",
+                "LongName":"Advanced Very High Resolution Radiometer"
+            },
+            {
+                "ShortName":"AVHRR-2",
+                "LongName":"Advanced Very High Resolution Radiometer-2"
+            },
+            {
+                "ShortName":"AVHRR-3",
+                "LongName":"Advanced Very High Resolution Radiometer-3"
+            },
+            {
+                "ShortName":"SSM/I",
+                "LongName":"Special Sensor Microwave/Imager"
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-2/F10",
+        "LongName":"Defense Meteorological Satellite Program-F10",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"100.6",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.9",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSM/I",
+                "LongName":"Special Sensor Microwave Imager",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-2/F11",
+        "LongName":"Defense Meteorological Satellite Program-F11",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.9",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.9",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSM/I",
+                "LongName":"Special Sensor Microwave Imager",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-2/F13",
+        "LongName":"Defense Meteorological Satellite Program-F13",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.9",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.8",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSM/I",
+                "LongName":"Special Sensor Microwave/Imager",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-2/F14",
+        "LongName":"Defense Meteorological Satellite Program-F14",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.9",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.9",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSM/I",
+                "LongName":"Special Sensor Microwave/Imager",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-2/F15",
+        "LongName":"Defense Meteorological Satellite Program-F15",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.8",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.9",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSM/I",
+                "LongName":"Special Sensor Microwave/Imager",
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-2/F16",
+        "LongName":"Defense Meteorological Satellite Program-F16",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.9",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.9",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSMIS",
+                "LongName":"Special Sensor Microwave Imager/Sounder",
+                "Technique":"instrument",
+                "NumberOfInstruments":1,
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ],
+                "ComposedOf":[
+                    {
+                        "ShortName":"SSMIS",
+                        "LongName":"Special Sensor Microwave Imager/Sounder"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-3/F17",
+        "LongName":"Defense Meteorological Satellite Program-F17",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"102.0",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.8",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSMIS",
+                "LongName":"Special Sensor Microwave Imager/Sounder",
+                "Technique":"instrument",
+                "NumberOfInstruments":1,
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ],
+                "ComposedOf":[
+                    {
+                        "ShortName":"SSMIS",
+                        "LongName":"Special Sensor Microwave Imager/Sounder"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"Earth Observation Satellites",
+        "ShortName":"DMSP 5D-3/F18",
+        "LongName":"Defense Meteorological Satellite Program-F18",
+        "Characteristics":[
+            {
+                "Name":"OrbitPeriod",
+                "Description":"Nominal period of a spacecraft?s single revolution on an orbital plane.",
+                "Value":"101.9",
+                "Unit":"Minutes",
+                "DataType":"FLOAT"
+            },
+            {
+                "Name":"InclinationAngle",
+                "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                "Value":"98.9",
+                "Unit":"Degrees",
+                "DataType":"FLOAT"
+            }
+        ],
+        "Instruments":[
+            {
+                "ShortName":"SSMIS",
+                "LongName":"Special Sensor Microwave Imager/Sounder",
+                "Technique":"instrument",
+                "NumberOfInstruments":1,
+                "Characteristics":[
+                    {
+                        "Name":"SwathWidth",
+                        "Description":"Spacecraft angular distance from orbital plane relative to the Equator.",
+                        "Value":"1394.0",
+                        "Unit":"Meters",
+                        "DataType":"FLOAT"
+                    }
+                ],
+                "ComposedOf":[
+                    {
+                        "ShortName":"SSMIS",
+                        "LongName":"Special Sensor Microwave Imager/Sounder"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Type":"In Situ Ocean-based Platforms",
+        "ShortName":"MOORINGS",
+        "Instruments":[
+            {
+                "ShortName":"CTD",
+                "LongName":"Conductivity, Temperature, Depth"
+            }
+        ]
+    },
+    {
+        "Type":"In Situ Ocean-based Platforms",
+        "ShortName":"BUOYS",
+        "Instruments":[
+            {
+                "ShortName":"CTD",
+                "LongName":"Conductivity, Temperature, Depth"
+            }
+        ]
+    },
+    {
+        "Type":"In Situ Ocean-based Platforms",
+        "ShortName":"SEAGLIDER",
+        "Instruments":[
+            {
+                "ShortName":"CTD",
+                "LongName":"Conductivity, Temperature, Depth"
+            }
+        ]
+    },
+    {
+        "Type":"Models/Analyses",
+        "ShortName":"MODELS"
+    }
+]

@@ -1,0 +1,44 @@
+{
+  "Name": "latitude",
+  "LongName": "latitude",
+  "Definition": "latitude",
+  "Units": "degrees_north",
+  "DataType": "float32",
+  "Dimensions": [
+    {
+      "Name": "latitude",
+      "Size": 360,
+      "Type": "LATITUDE_DIMENSION"
+    }
+  ],
+  "ValidRanges": [
+    {
+      "Min": -3.4028234663852886e+38,
+      "Max": 3.4028234663852886e+38
+    }
+  ],
+  "Scale": 1.0,
+  "Offset": 0.0,
+  "VariableType": "OTHER",
+  "Characteristics": {
+    "GroupPath": "/latitude",
+    "IndexRanges": {
+      "LatRange": [
+        -90.0,
+        90.0
+      ],
+      "LonRange": [
+        -180.0,
+        180.0
+      ]
+    }
+  },
+  "Sets": [
+    {
+      "Name": "latitude",
+      "Type": "General",
+      "Size": 1,
+      "Index": 1
+    }
+  ]
+}

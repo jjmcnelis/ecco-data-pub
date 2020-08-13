@@ -1,0 +1,48 @@
+{
+  "Name": "latitude_bnds",
+  "LongName": "latitude bounds of lat-lon grid cells",
+  "Definition": "latitude bounds of lat-lon grid cells",
+  "DataType": "float32",
+  "Dimensions": [
+    {
+      "Name": "latitude",
+      "Size": 360,
+      "Type": "LATITUDE_DIMENSION"
+    },
+    {
+      "Name": "nv",
+      "Size": 2,
+      "Type": "OTHER"
+    }
+  ],
+  "ValidRanges": [
+    {
+      "Min": -3.4028234663852886e+38,
+      "Max": 3.4028234663852886e+38
+    }
+  ],
+  "Scale": 1.0,
+  "Offset": 0.0,
+  "VariableType": "OTHER",
+  "Characteristics": {
+    "GroupPath": "/latitude_bnds",
+    "IndexRanges": {
+      "LatRange": [
+        -90.0,
+        90.0
+      ],
+      "LonRange": [
+        -180.0,
+        180.0
+      ]
+    }
+  },
+  "Sets": [
+    {
+      "Name": "latitude_bnds",
+      "Type": "General",
+      "Size": 1,
+      "Index": 1
+    }
+  ]
+}

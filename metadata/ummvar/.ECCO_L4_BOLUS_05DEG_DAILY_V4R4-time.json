@@ -1,0 +1,44 @@
+{
+  "Name": "time",
+  "LongName": "center time of averaging period or time of snapshot",
+  "Definition": "center time of averaging period or time of snapshot",
+  "Units": "days since 1992-01-01 12:00:00",
+  "DataType": "int32",
+  "Dimensions": [
+    {
+      "Name": "time",
+      "Size": 1,
+      "Type": "TIME_DIMENSION"
+    }
+  ],
+  "ValidRanges": [
+    {
+      "Min": -2147483648,
+      "Max": 2147483647
+    }
+  ],
+  "Scale": 1.0,
+  "Offset": 0.0,
+  "VariableType": "OTHER",
+  "Characteristics": {
+    "GroupPath": "/time",
+    "IndexRanges": {
+      "LatRange": [
+        -90.0,
+        90.0
+      ],
+      "LonRange": [
+        -180.0,
+        180.0
+      ]
+    }
+  },
+  "Sets": [
+    {
+      "Name": "time",
+      "Type": "General",
+      "Size": 1,
+      "Index": 1
+    }
+  ]
+}

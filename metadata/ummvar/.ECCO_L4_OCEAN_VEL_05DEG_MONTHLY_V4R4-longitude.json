@@ -1,0 +1,44 @@
+{
+  "Name": "longitude",
+  "LongName": "longitude",
+  "Definition": "longitude",
+  "Units": "degrees_east",
+  "DataType": "float32",
+  "Dimensions": [
+    {
+      "Name": "longitude",
+      "Size": 720,
+      "Type": "LONGITUDE_DIMENSION"
+    }
+  ],
+  "ValidRanges": [
+    {
+      "Min": -3.4028234663852886e+38,
+      "Max": 3.4028234663852886e+38
+    }
+  ],
+  "Scale": 1.0,
+  "Offset": 0.0,
+  "VariableType": "OTHER",
+  "Characteristics": {
+    "GroupPath": "/longitude",
+    "IndexRanges": {
+      "LatRange": [
+        -90.0,
+        90.0
+      ],
+      "LonRange": [
+        -180.0,
+        180.0
+      ]
+    }
+  },
+  "Sets": [
+    {
+      "Name": "longitude",
+      "Type": "General",
+      "Size": 1,
+      "Index": 1
+    }
+  ]
+}

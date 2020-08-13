@@ -1,0 +1,161 @@
+{
+  "ECCO_L4_FRESH_FLUX_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN CIRCULATION",
+      "VariableLevel1": "FRESH WATER FLUX"
+    }
+  ],
+  "ECCO_L4_HEAT_FLUX_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN HEAT BUDGET",
+      "VariableLevel1": "HEAT FLUX"
+    }
+  ],
+  "ECCO_L4_SURFACE_STRESS_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN WINDS",
+      "VariableLevel1": "WIND STRESS"
+    }
+  ],
+  "ECCO_L4_ATM_PROPERTIES_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN TEMPERATURE",
+      "VariableLevel1": "NULL"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN PRESSURE",
+      "VariableLevel1": "NULL"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SALINITY/DENSITY",
+      "VariableLevel1": "NULL"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN WINDS",
+      "VariableLevel1": "NULL"
+    }
+  ],
+  "ECCO_L4_BOLUS_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN CIRCULATION",
+      "VariableLevel1": "OCEAN CURRENTS"
+    }
+  ],
+  "ECCO_L4_OBP_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN PRESSURE",
+      "VariableLevel1": "WATER PRESSURE"
+    }
+  ],
+  "ECCO_L4_DENSE_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SALINITY/DENSITY",
+      "VariableLevel1": "DENSITY"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN PRESSURE",
+      "VariableLevel1": "WATER PRESSURE"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "CLIMATE INDICATORS",
+      "Term": "ATMOSPHERIC/OCEAN INDICATORS",
+      "VariableLevel1": "TEMPERATURE INDICATORS",
+      "VariableLevel2": "STRATOSPHERIC TEMPERATURE ANOMALIES"
+    }
+  ],
+  "ECCO_L4_MIXED_LAYER_DEPTH_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN CIRCULATION",
+      "VariableLevel1": "OCEAN MIXED LAYER"
+    }
+  ],
+  "ECCO_L4_OCEAN_TEMP_SALINITY_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SALINITY/DENSITY",
+      "VariableLevel1": "SALINITY"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN TEMPERATURE",
+      "VariableLevel1": "SEA SURFACE TEMPERATURE"
+    }
+  ],
+  "ECCO_L4_OCEAN_VEL_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "OCEAN CIRCULATION",
+      "VariableLevel1": "OCEAN CURRENTS"
+    }
+  ],
+  "ECCO_L4_SEA_ICE_CONCENTRATION_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SEA ICE",
+      "VariableLevel1": "SEA ICE CONCENTRATION"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SEA ICE",
+      "VariableLevel1": "ICE DEPTH/THICKNESS"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SEA ICE",
+      "VariableLevel1": "SEA ICE MOTION"
+    },
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SEA ICE",
+      "VariableLevel1": "SNOW DEPTH"
+    }
+  ],
+  "ECCO_L4_SSH_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SEA SURFACE TOPOGRAPHY",
+      "VariableLevel1": "SEA SURFACE HEIGHT"
+    }
+  ],
+  "ECCO_L4_GMSL_": [
+    {
+      "Category": "EARTH SCIENCE",
+      "Topic": "OCEANS",
+      "Term": "SEA SURFACE TOPOGRAPHY",
+      "VariableLevel1": "SEA SURFACE HEIGHT"
+    }
+  ]
+}

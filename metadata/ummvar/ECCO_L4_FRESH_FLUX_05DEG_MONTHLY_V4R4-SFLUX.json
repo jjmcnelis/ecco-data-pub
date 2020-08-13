@@ -1,0 +1,60 @@
+{
+  "Name": "SFLUX",
+  "LongName": "Rate of change of total ocean salinity per m2 accounting for mass fluxes.",
+  "Definition": "Rate of change of total ocean salinity per m2 accounting for mass fluxes.",
+  "Units": "g m-2 s-1",
+  "DataType": "float32",
+  "Dimensions": [
+    {
+      "Name": "time",
+      "Size": 1,
+      "Type": "TIME_DIMENSION"
+    },
+    {
+      "Name": "latitude",
+      "Size": 360,
+      "Type": "LATITUDE_DIMENSION"
+    },
+    {
+      "Name": "longitude",
+      "Size": 720,
+      "Type": "LONGITUDE_DIMENSION"
+    }
+  ],
+  "ValidRanges": [
+    {
+      "Min": -3.4028234663852886e+38,
+      "Max": 3.4028234663852886e+38
+    }
+  ],
+  "Scale": 1.0,
+  "Offset": 0.0,
+  "FillValues": [
+    {
+      "Value": 9.969209968386869e+36,
+      "Type": "SCIENCE_FILLVALUE"
+    }
+  ],
+  "VariableType": "SCIENCE_VARIABLE",
+  "Characteristics": {
+    "GroupPath": "/SFLUX",
+    "IndexRanges": {
+      "LatRange": [
+        -90.0,
+        90.0
+      ],
+      "LonRange": [
+        -180.0,
+        180.0
+      ]
+    }
+  },
+  "Sets": [
+    {
+      "Name": "SFLUX",
+      "Type": "General",
+      "Size": 1,
+      "Index": 1
+    }
+  ]
+}

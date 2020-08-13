@@ -1,0 +1,10 @@
+.DS_Store
+.dev/
+.old/
+.vscode/
+docs/umm/
+.ipynb_checkpoints/
+docs/ECCOV4r4_monthly_daily_means_netcdf_datasets/
+docs/ECCOV4r4_monthly_daily_means_netcdf_datasets.tar.gz
+docs/latlon_dataset_demo_files_20200730/
+docs/latlon_dataset_demo_files_20200730.tar.gz

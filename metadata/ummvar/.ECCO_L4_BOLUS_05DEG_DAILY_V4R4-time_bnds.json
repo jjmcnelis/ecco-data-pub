@@ -1,0 +1,49 @@
+{
+  "Name": "time_bnds",
+  "LongName": "start and stop time of period or time of snapshot",
+  "Definition": "start and stop time of period or time of snapshot",
+  "Units": "days since 1992-01-01 00:00:00",
+  "DataType": "int32",
+  "Dimensions": [
+    {
+      "Name": "time",
+      "Size": 1,
+      "Type": "TIME_DIMENSION"
+    },
+    {
+      "Name": "nv",
+      "Size": 2,
+      "Type": "OTHER"
+    }
+  ],
+  "ValidRanges": [
+    {
+      "Min": -2147483648,
+      "Max": 2147483647
+    }
+  ],
+  "Scale": 1.0,
+  "Offset": 0.0,
+  "VariableType": "OTHER",
+  "Characteristics": {
+    "GroupPath": "/time_bnds",
+    "IndexRanges": {
+      "LatRange": [
+        -90.0,
+        90.0
+      ],
+      "LonRange": [
+        -180.0,
+        180.0
+      ]
+    }
+  },
+  "Sets": [
+    {
+      "Name": "time_bnds",
+      "Type": "General",
+      "Size": 1,
+      "Index": 1
+    }
+  ]
+}

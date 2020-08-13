@@ -1,0 +1,16 @@
+HTTP/2 200 
+content-type: application/xml
+content-length: 402
+date: Thu, 06 Aug 2020 07:47:54 GMT
+set-cookie: AWSALB=6LNTiZm5+M83csqSKB97OvoCiN4XSjWgLu5wT9bQ3oqlUNvkDVGElPAtYmhl5AxcYFkASbq7kkRUd8gfvLjJTudthO/hTSIUr1+3zDNClv7troQgGEwuwKELmXjy; Expires=Thu, 13 Aug 2020 07:47:54 GMT; Path=/
+set-cookie: AWSALBCORS=6LNTiZm5+M83csqSKB97OvoCiN4XSjWgLu5wT9bQ3oqlUNvkDVGElPAtYmhl5AxcYFkASbq7kkRUd8gfvLjJTudthO/hTSIUr1+3zDNClv7troQgGEwuwKELmXjy; Expires=Thu, 13 Aug 2020 07:47:54 GMT; Path=/; SameSite=None
+cmr-request-id: 3ba3e6dd-d8f6-4d65-988e-211f895a54e1
+x-request-id: 3ba3e6dd-d8f6-4d65-988e-211f895a54e1
+server: Jetty(9.4.z-SNAPSHOT)
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-cache: Miss from cloudfront
+via: 1.1 c54903daf21f7fbf61850130aa9704ca.cloudfront.net (CloudFront)
+x-amz-cf-pop: ATL56-C2
+x-amz-cf-id: d7NK2sLPogsoaSNgBHGuzXYQ_zmwfqGvCkMd_iYfdGY5NsFlKkIdjw==
+
+<?xml version="1.0" encoding="UTF-8"?><result><concept-id>C1236799831-POCLOUD</concept-id><revision-id>2</revision-id><warnings>After translating item to UMM-C the metadata had the following issue: [:DataCenters 1 :ContactInformation :RelatedUrls 0] RelatedUrl does not have a description.. [:DataCenters 2 :ContactInformation :RelatedUrls 0] RelatedUrl does not have a description.</warnings></result>
