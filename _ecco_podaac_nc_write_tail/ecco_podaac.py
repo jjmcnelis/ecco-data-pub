@@ -139,7 +139,7 @@ def apply_some_metadata_modifiers(filename: str):
             if v=="latitude_bnds":
                 xrds.variables[v].attrs['units'] = "degrees_north"
             if v=="longitude_bnds":
-                xrds.variables[v].attrs['units'] = "degrees_south"
+                xrds.variables[v].attrs['units'] = "degrees_east"
         return xrds  # Return the updated xarray Dataset.
     
     return apply_modifiers  # Return the function.
