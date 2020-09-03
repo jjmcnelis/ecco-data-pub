@@ -9,10 +9,31 @@ files
 ```
 
 
+
+
+    ['ATM_SURFACE_TEMP_HUM_WIND_PRES_day_mean_1992-01-01_ECCO_V4r4_latlon_0p50deg.nc',
+     'datasets.csv',
+     'ecco_podaac.py',
+     'keywords.json',
+     '__pycache__',
+     'README.ipynb',
+     'README.md',
+     'tests']
+
+
+
+
 ```python
 f = files[0]
 f
 ```
+
+
+
+
+    'ATM_SURFACE_TEMP_HUM_WIND_PRES_day_mean_1992-01-01_ECCO_V4r4_latlon_0p50deg.nc'
+
+
 
 ## example output
 
@@ -50,10 +71,10 @@ f
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:11
-        date_issued:                  2020-09-02T16:18:11
-        date_metadata_modified:       2020-09-02T16:18:11
-        date_modified:                2020-09-02T16:18:11
+        date_created:                 2020-09-03T00:48:55
+        date_issued:                  2020-09-03T00:48:55
+        date_metadata_modified:       2020-09-03T00:48:55
+        date_modified:                2020-09-03T00:48:55
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -142,10 +163,10 @@ with xr.open_dataset(f) as ds:
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:11
-        date_issued:                  2020-09-02T16:18:11
-        date_metadata_modified:       2020-09-02T16:18:11
-        date_modified:                2020-09-02T16:18:11
+        date_created:                 2020-09-03T00:48:55
+        date_issued:                  2020-09-03T00:48:55
+        date_metadata_modified:       2020-09-03T00:48:55
+        date_modified:                2020-09-03T00:48:55
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -232,10 +253,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:12
-        date_issued:                  2020-09-02T16:18:12
-        date_metadata_modified:       2020-09-02T16:18:12
-        date_modified:                2020-09-02T16:18:12
+        date_created:                 2020-09-03T00:48:56
+        date_issued:                  2020-09-03T00:48:56
+        date_metadata_modified:       2020-09-03T00:48:56
+        date_modified:                2020-09-03T00:48:56
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -307,10 +328,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:12
-        date_issued:                  2020-09-02T16:18:12
-        date_metadata_modified:       2020-09-02T16:18:12
-        date_modified:                2020-09-02T16:18:12
+        date_created:                 2020-09-03T00:48:56
+        date_issued:                  2020-09-03T00:48:56
+        date_metadata_modified:       2020-09-03T00:48:56
+        date_modified:                2020-09-03T00:48:56
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -382,10 +403,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:13
-        date_issued:                  2020-09-02T16:18:13
-        date_metadata_modified:       2020-09-02T16:18:13
-        date_modified:                2020-09-02T16:18:13
+        date_created:                 2020-09-03T00:48:57
+        date_issued:                  2020-09-03T00:48:57
+        date_metadata_modified:       2020-09-03T00:48:57
+        date_modified:                2020-09-03T00:48:57
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -457,10 +478,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:14
-        date_issued:                  2020-09-02T16:18:14
-        date_metadata_modified:       2020-09-02T16:18:14
-        date_modified:                2020-09-02T16:18:14
+        date_created:                 2020-09-03T00:48:57
+        date_issued:                  2020-09-03T00:48:57
+        date_metadata_modified:       2020-09-03T00:48:57
+        date_modified:                2020-09-03T00:48:57
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -531,10 +552,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:14
-        date_issued:                  2020-09-02T16:18:14
-        date_metadata_modified:       2020-09-02T16:18:14
-        date_modified:                2020-09-02T16:18:14
+        date_created:                 2020-09-03T00:48:58
+        date_issued:                  2020-09-03T00:48:58
+        date_metadata_modified:       2020-09-03T00:48:58
+        date_modified:                2020-09-03T00:48:58
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -605,10 +626,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:15
-        date_issued:                  2020-09-02T16:18:15
-        date_metadata_modified:       2020-09-02T16:18:15
-        date_modified:                2020-09-02T16:18:15
+        date_created:                 2020-09-03T00:48:58
+        date_issued:                  2020-09-03T00:48:58
+        date_metadata_modified:       2020-09-03T00:48:58
+        date_modified:                2020-09-03T00:48:58
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -679,10 +700,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:15
-        date_issued:                  2020-09-02T16:18:15
-        date_metadata_modified:       2020-09-02T16:18:15
-        date_modified:                2020-09-02T16:18:15
+        date_created:                 2020-09-03T00:48:59
+        date_issued:                  2020-09-03T00:48:59
+        date_metadata_modified:       2020-09-03T00:48:59
+        date_modified:                2020-09-03T00:48:59
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -753,10 +774,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:16
-        date_issued:                  2020-09-02T16:18:16
-        date_metadata_modified:       2020-09-02T16:18:16
-        date_modified:                2020-09-02T16:18:16
+        date_created:                 2020-09-03T00:48:59
+        date_issued:                  2020-09-03T00:48:59
+        date_metadata_modified:       2020-09-03T00:48:59
+        date_modified:                2020-09-03T00:48:59
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -823,10 +844,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:16
-        date_issued:                  2020-09-02T16:18:16
-        date_metadata_modified:       2020-09-02T16:18:16
-        date_modified:                2020-09-02T16:18:16
+        date_created:                 2020-09-03T00:49:00
+        date_issued:                  2020-09-03T00:49:00
+        date_metadata_modified:       2020-09-03T00:49:00
+        date_modified:                2020-09-03T00:49:00
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -893,10 +914,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:17
-        date_issued:                  2020-09-02T16:18:17
-        date_metadata_modified:       2020-09-02T16:18:17
-        date_modified:                2020-09-02T16:18:17
+        date_created:                 2020-09-03T00:49:01
+        date_issued:                  2020-09-03T00:49:01
+        date_metadata_modified:       2020-09-03T00:49:01
+        date_modified:                2020-09-03T00:49:01
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -963,10 +984,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:17
-        date_issued:                  2020-09-02T16:18:17
-        date_metadata_modified:       2020-09-02T16:18:17
-        date_modified:                2020-09-02T16:18:17
+        date_created:                 2020-09-03T00:49:01
+        date_issued:                  2020-09-03T00:49:01
+        date_metadata_modified:       2020-09-03T00:49:01
+        date_modified:                2020-09-03T00:49:01
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1033,10 +1054,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:18
-        date_issued:                  2020-09-02T16:18:18
-        date_metadata_modified:       2020-09-02T16:18:18
-        date_modified:                2020-09-02T16:18:18
+        date_created:                 2020-09-03T00:49:02
+        date_issued:                  2020-09-03T00:49:02
+        date_metadata_modified:       2020-09-03T00:49:02
+        date_modified:                2020-09-03T00:49:02
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1107,10 +1128,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:18
-        date_issued:                  2020-09-02T16:18:18
-        date_metadata_modified:       2020-09-02T16:18:18
-        date_modified:                2020-09-02T16:18:18
+        date_created:                 2020-09-03T00:49:02
+        date_issued:                  2020-09-03T00:49:02
+        date_metadata_modified:       2020-09-03T00:49:02
+        date_modified:                2020-09-03T00:49:02
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1181,10 +1202,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:19
-        date_issued:                  2020-09-02T16:18:19
-        date_metadata_modified:       2020-09-02T16:18:19
-        date_modified:                2020-09-02T16:18:19
+        date_created:                 2020-09-03T00:49:03
+        date_issued:                  2020-09-03T00:49:03
+        date_metadata_modified:       2020-09-03T00:49:03
+        date_modified:                2020-09-03T00:49:03
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1255,10 +1276,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:19
-        date_issued:                  2020-09-02T16:18:19
-        date_metadata_modified:       2020-09-02T16:18:19
-        date_modified:                2020-09-02T16:18:19
+        date_created:                 2020-09-03T00:49:03
+        date_issued:                  2020-09-03T00:49:03
+        date_metadata_modified:       2020-09-03T00:49:03
+        date_modified:                2020-09-03T00:49:03
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1329,10 +1350,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:20
-        date_issued:                  2020-09-02T16:18:20
-        date_metadata_modified:       2020-09-02T16:18:20
-        date_modified:                2020-09-02T16:18:20
+        date_created:                 2020-09-03T00:49:04
+        date_issued:                  2020-09-03T00:49:04
+        date_metadata_modified:       2020-09-03T00:49:04
+        date_modified:                2020-09-03T00:49:04
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1409,10 +1430,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:20
-        date_issued:                  2020-09-02T16:18:20
-        date_metadata_modified:       2020-09-02T16:18:20
-        date_modified:                2020-09-02T16:18:20
+        date_created:                 2020-09-03T00:49:04
+        date_issued:                  2020-09-03T00:49:04
+        date_metadata_modified:       2020-09-03T00:49:04
+        date_modified:                2020-09-03T00:49:04
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1489,10 +1510,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:21
-        date_issued:                  2020-09-02T16:18:21
-        date_metadata_modified:       2020-09-02T16:18:21
-        date_modified:                2020-09-02T16:18:21
+        date_created:                 2020-09-03T00:49:05
+        date_issued:                  2020-09-03T00:49:05
+        date_metadata_modified:       2020-09-03T00:49:05
+        date_modified:                2020-09-03T00:49:05
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1569,10 +1590,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:22
-        date_issued:                  2020-09-02T16:18:22
-        date_metadata_modified:       2020-09-02T16:18:22
-        date_modified:                2020-09-02T16:18:22
+        date_created:                 2020-09-03T00:49:05
+        date_issued:                  2020-09-03T00:49:05
+        date_metadata_modified:       2020-09-03T00:49:05
+        date_modified:                2020-09-03T00:49:05
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1649,10 +1670,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:22
-        date_issued:                  2020-09-02T16:18:22
-        date_metadata_modified:       2020-09-02T16:18:22
-        date_modified:                2020-09-02T16:18:22
+        date_created:                 2020-09-03T00:49:06
+        date_issued:                  2020-09-03T00:49:06
+        date_metadata_modified:       2020-09-03T00:49:06
+        date_modified:                2020-09-03T00:49:06
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1722,10 +1743,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:23
-        date_issued:                  2020-09-02T16:18:23
-        date_metadata_modified:       2020-09-02T16:18:23
-        date_modified:                2020-09-02T16:18:23
+        date_created:                 2020-09-03T00:49:06
+        date_issued:                  2020-09-03T00:49:06
+        date_metadata_modified:       2020-09-03T00:49:06
+        date_modified:                2020-09-03T00:49:06
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1795,10 +1816,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:23
-        date_issued:                  2020-09-02T16:18:23
-        date_metadata_modified:       2020-09-02T16:18:23
-        date_modified:                2020-09-02T16:18:23
+        date_created:                 2020-09-03T00:49:07
+        date_issued:                  2020-09-03T00:49:07
+        date_metadata_modified:       2020-09-03T00:49:07
+        date_modified:                2020-09-03T00:49:07
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1868,10 +1889,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:24
-        date_issued:                  2020-09-02T16:18:24
-        date_metadata_modified:       2020-09-02T16:18:24
-        date_modified:                2020-09-02T16:18:24
+        date_created:                 2020-09-03T00:49:08
+        date_issued:                  2020-09-03T00:49:08
+        date_metadata_modified:       2020-09-03T00:49:08
+        date_modified:                2020-09-03T00:49:08
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -1941,10 +1962,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:24
-        date_issued:                  2020-09-02T16:18:24
-        date_metadata_modified:       2020-09-02T16:18:24
-        date_modified:                2020-09-02T16:18:24
+        date_created:                 2020-09-03T00:49:08
+        date_issued:                  2020-09-03T00:49:08
+        date_metadata_modified:       2020-09-03T00:49:08
+        date_modified:                2020-09-03T00:49:08
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2023,10 +2044,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:27
-        date_issued:                  2020-09-02T16:18:27
-        date_metadata_modified:       2020-09-02T16:18:27
-        date_modified:                2020-09-02T16:18:27
+        date_created:                 2020-09-03T00:49:11
+        date_issued:                  2020-09-03T00:49:11
+        date_metadata_modified:       2020-09-03T00:49:11
+        date_modified:                2020-09-03T00:49:11
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2097,10 +2118,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:27
-        date_issued:                  2020-09-02T16:18:27
-        date_metadata_modified:       2020-09-02T16:18:27
-        date_modified:                2020-09-02T16:18:27
+        date_created:                 2020-09-03T00:49:11
+        date_issued:                  2020-09-03T00:49:11
+        date_metadata_modified:       2020-09-03T00:49:11
+        date_modified:                2020-09-03T00:49:11
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2171,10 +2192,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:28
-        date_issued:                  2020-09-02T16:18:28
-        date_metadata_modified:       2020-09-02T16:18:28
-        date_modified:                2020-09-02T16:18:28
+        date_created:                 2020-09-03T00:49:12
+        date_issued:                  2020-09-03T00:49:12
+        date_metadata_modified:       2020-09-03T00:49:12
+        date_modified:                2020-09-03T00:49:12
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2245,10 +2266,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:29
-        date_issued:                  2020-09-02T16:18:29
-        date_metadata_modified:       2020-09-02T16:18:29
-        date_modified:                2020-09-02T16:18:29
+        date_created:                 2020-09-03T00:49:12
+        date_issued:                  2020-09-03T00:49:12
+        date_metadata_modified:       2020-09-03T00:49:12
+        date_modified:                2020-09-03T00:49:12
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2334,10 +2355,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:31
-        date_issued:                  2020-09-02T16:18:31
-        date_metadata_modified:       2020-09-02T16:18:31
-        date_modified:                2020-09-02T16:18:31
+        date_created:                 2020-09-03T00:49:15
+        date_issued:                  2020-09-03T00:49:15
+        date_metadata_modified:       2020-09-03T00:49:15
+        date_modified:                2020-09-03T00:49:15
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2415,10 +2436,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:32
-        date_issued:                  2020-09-02T16:18:32
-        date_metadata_modified:       2020-09-02T16:18:32
-        date_modified:                2020-09-02T16:18:32
+        date_created:                 2020-09-03T00:49:16
+        date_issued:                  2020-09-03T00:49:16
+        date_metadata_modified:       2020-09-03T00:49:16
+        date_modified:                2020-09-03T00:49:16
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2496,10 +2517,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:32
-        date_issued:                  2020-09-02T16:18:32
-        date_metadata_modified:       2020-09-02T16:18:32
-        date_modified:                2020-09-02T16:18:32
+        date_created:                 2020-09-03T00:49:16
+        date_issued:                  2020-09-03T00:49:16
+        date_metadata_modified:       2020-09-03T00:49:16
+        date_modified:                2020-09-03T00:49:16
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2577,10 +2598,10 @@ done
         creator_name:                 ECCO Consortium
         creator_type:                 group
         creator_url:                  https://ecco.jpl.nasa.gov
-        date_created:                 2020-09-02T16:18:33
-        date_issued:                  2020-09-02T16:18:33
-        date_metadata_modified:       2020-09-02T16:18:33
-        date_modified:                2020-09-02T16:18:33
+        date_created:                 2020-09-03T00:49:17
+        date_issued:                  2020-09-03T00:49:17
+        date_metadata_modified:       2020-09-03T00:49:17
+        date_modified:                2020-09-03T00:49:17
         geospatial_lat_max:           90.0
         geospatial_lat_min:           -90.0
         geospatial_lat_resolution:    0.5
@@ -2625,7 +2646,7 @@ done
 
 
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2639,7 +2660,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.float64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2653,7 +2674,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.float64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2667,7 +2688,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.float64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2681,7 +2702,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.float64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2695,7 +2716,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.int64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2709,7 +2730,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.int64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)
@@ -2723,7 +2744,7 @@ done
         has_date_units = "units" in attrs and "since" in attrs["units"]
     TypeError: argument of type 'numpy.int64' is not iterable
     Traceback (most recent call last):
-      File "ecco_podaac.py", line 152, in <module>
+      File "ecco_podaac.py", line 158, in <module>
         with xr.open_dataset(f) as ds:
       File "/home/jack/apps/miniconda/lib/python3.7/site-packages/xarray/backends/api.py", line 545, in open_dataset
         ds = maybe_decode_store(store)

@@ -53,6 +53,7 @@ def apply_some_metadata_modifiers(filename: str):
         #'cdm_data_type': 'Grid',
         #'comment': 'These fields are provided on a regular lat-lon grid. They have been mapped to the regular lat-lon grid from the original ECCO lat-lon-cap 90 (llc90) native model grid.',
         #'conventions': 'CF-1.8, ACDD-1.3',
+        'coordinates': None,
         #'creator_email': 'ecco-group@mit.edu',
         #'creator_institution': 'NASA Jet Propulsion Laboratory (JPL)',
         #'creator_name': 'ECCO Consortium',
@@ -126,7 +127,8 @@ def apply_some_metadata_modifiers(filename: str):
             if callable(modifier):
                 atts.update({name: modifier(x=atts[name])})
             elif modifier is None:
-                del atts[name]
+                if name in atts:
+                    del atts[name]
             else:
                 atts.update({name: modifier})
         xrds.attrs = atts
@@ -134,6 +136,10 @@ def apply_some_metadata_modifiers(filename: str):
         for v in xrds.variables:
             if "gmcd_keywords" in xrds.variables[v].attrs:
                 del xrds.variables[v].attrs['gmcd_keywords']
+            if v=="latitude_bnds":
+                xrds.variables[v].attrs['units'] = "degrees_north"
+            if v=="longitude_bnds":
+                xrds.variables[v].attrs['units'] = "degrees_south"
         return xrds  # Return the updated xarray Dataset.
     
     return apply_modifiers  # Return the function.
